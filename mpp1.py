@@ -40,8 +40,6 @@ htp = smallfont1.render('HOW TO PLAY', True, color)
 cre = smallfont.render('CREDITS', True, color)
 quit = smallfont.render('QUIT', True, color)
 title = bigfont.render('PING - PONG', True, color)
-name1 = bigfont.render('SURYANK Singh', True, color)
-name2 = bigfont.render('Vaivhav Singh', True, color)
 
 while True:
     for ev in pingpong1.pygame.event.get():
