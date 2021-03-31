@@ -5,9 +5,9 @@ screen = pygame.display.set_mode(res)
 gray = (200, 200, 200)
 # credits
 bigfont = pygame.font.SysFont('8-BIT WONDER.TTF', 70)
-name1 = bigfont.render('SURYANK Singh', True, gray)
-name2 = bigfont.render('Vaibhav Singh', True, gray)
-name3 = bigfont.render('Vansh Kesari', True, gray)
+name1 = bigfont.render('name 1', True, gray)
+name2 = bigfont.render('name 2', True, gray)
+name3 = bigfont.render('name 3', True, gray)
 pygame.display.set_caption("PING PONG")
 icon = pygame.image.load("ping-pong.png")
 r = 1
